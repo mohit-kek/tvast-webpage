@@ -1,0 +1,47 @@
+.home {
+    margin: 6rem 6rem;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.home-description > div {
+    margin: 2rem 0;
+}
+
+.home-heading {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.home-heading > span {
+    color: var(--color-yellow);
+}
+
+.line {
+    height: 3px;
+    width: 120px;
+    background: var(--color-light);
+}
+
+.home-summary {
+ font-size: 1.1rem;
+ font-weight: 500;
+}
+
+.home-get-started { 
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    font-size: large;
+    font-weight: bold;
+}
+
+.home-mobile-img {
+    display: flex;
+}
+
+.mobile-overlay {
+    position: absolute;
+    margin-top: 6rem;
+    margin-left: 9.3rem;
+}

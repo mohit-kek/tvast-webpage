@@ -1,0 +1,30 @@
+.nav {
+    padding: 0 6rem;
+    height: 9vh;
+    display: grid;
+    grid-template-columns: 40% 50%;
+    gap: 10%;
+
+}
+
+.nav-items {
+    display: grid;
+    grid-template-columns: repeat(5,18%);
+    gap: 2px;
+    align-items: center;
+    font-size: small;
+}
+
+.btn {
+    height: 40px;
+    padding: 8px;
+    width: max-content;
+    background: var(--color-dark);
+    color: #fff;
+    font-size: medium;
+    border-radius: 8px;
+    border: none;
+}
+
+
+
